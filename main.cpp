@@ -3,6 +3,8 @@
 #include "player.h"
 using namespace std;
 
+/// HELLO! Sorry if those code is messy, it is old code from when I first started programming. Feel free to browse :)
+
 	//////////////////// VARIABLE DECLARATION ////////////////////
 
 bool inGame = 0;
