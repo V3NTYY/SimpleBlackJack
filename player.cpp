@@ -35,6 +35,8 @@ Player::Player(const Player& obj) //Copy constructor
 		localDiscard[k] = obj.localDiscard[k];
 
 	discardCounter = obj.discardCounter;
+
+	// Hello
 }
 Player::~Player() {} //Destructor
 
