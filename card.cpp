@@ -7,8 +7,8 @@ using namespace std;
 ///
 Card::Card() //Default constructor
 {
-	cardType = 0;
-	cardNumber = 0;
+	cardType = 1;
+	cardNumber = 1;
 }
 
 Card::Card(int numType, int numCard) //Non-Default constructor
