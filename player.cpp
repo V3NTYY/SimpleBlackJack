@@ -29,14 +29,10 @@ Player::Player(const Player& obj) //Copy constructor
 	currentCardDupe = obj.currentCardDupe;
 	justReset = obj.justReset;
 	for (int k = 0; k < MaxPlayerHandSize; k++)
-	{
 		hand[k] = obj.hand[k];
-	}
 
 	for (int k = 0; k < CardDeckSize; k++)
-	{
 		localDiscard[k] = obj.localDiscard[k];
-	}
 
 	discardCounter = obj.discardCounter;
 }
